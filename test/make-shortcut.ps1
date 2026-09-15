@@ -1,7 +1,8 @@
 $ErrorActionPreference = "Stop"
-$gameDir = "E:\a Project\action-roguelike"
+# 使用脚本自身定位游戏目录，避免写死本机绝对路径
+$gameDir = Split-Path -Parent $PSScriptRoot
 $vbs = Join-Path $gameDir "POISE-Start.vbs"
-if (!(Test-Path -LiteralPath $vbs)) { throw "missing vbs" }
+if (!(Test-Path -LiteralPath $vbs)) { throw "missing $vbs" }
 
 $desktop = [Environment]::GetFolderPath("Desktop")
 Get-ChildItem $desktop -Filter "*.lnk" | Where-Object { $_.Name -like "*POISE*" } | Remove-Item -Force -ErrorAction SilentlyContinue
