@@ -68,14 +68,9 @@
 
 ## 开发
 
-```bash
-cd test
-node test-all-modes.mjs
-node test-ui-clicks.mjs
-```
-
-钩子：`window.__RG`
+单文件游戏：直接改 `index.html`。本地自动化脚本在 `test/`（不随仓库发布）。
 
 ## 作者
 
 © 2026 IDKURLOVE · 保留署名 · Supported by MiMo-X-Pro-Preview
+
