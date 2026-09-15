@@ -1407,8 +1407,9 @@
     if (e.button === 2) mouseR = false;
   });
   canvas.addEventListener("contextmenu", e=>e.preventDefault());
-  // 全局禁右键菜单（重键=重击，避免弹浏览器菜单）
+  // 全局禁右键菜单（右键=重击；桌面 App 模式下更需要）
   document.addEventListener("contextmenu", (e)=> e.preventDefault());
+  document.addEventListener("auxclick", (e)=>{ if (e.button === 2) e.preventDefault(); });
 
   // ========== State ==========
   const G = {
