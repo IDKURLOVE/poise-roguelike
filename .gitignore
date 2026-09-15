@@ -1,5 +1,15 @@
 node_modules/
 test/node_modules/
 test/shots/
+test/push-github.mjs
+launch.log
 *.log
 .DS_Store
+
+# 本地设计文档，不进公开仓库
+扩展_100小时_v1.0.md
+无尽模式_改造清单_v1.0.md
+海克斯模式_完整设计_v1.1.md
+M1灰盒_代码与设计审查_v1.0.md
+GDD_动作肉鸽_v1.0.md
+Playtest计划_v1.0.md
