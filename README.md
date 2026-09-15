@@ -4,9 +4,19 @@
 
 **Developer: [POPOult](https://github.com/POPOult)**
 
-## 玩
+## 怎么打开
 
-直接用浏览器打开 `index.html`，无需构建、无需服务器。
+### 桌面程序（推荐）
+双击任意其一：
+
+- `POISE-启动.vbs` — 无黑框，独立 App 窗口
+- `POISE-启动.bat` — 同上，带控制台日志
+- 桌面/开始菜单快捷方式：**POISE 破防之隙**
+
+启动器调用本机 Edge/Chrome 的 `--app` 模式：无地址栏、独立窗口，像桌面软件。
+
+### 浏览器
+也可以直接打开 `index.html`。右键菜单已全局屏蔽（右键=重击）。
 
 ```
 WASD          移动
@@ -41,7 +51,6 @@ F1            埋点调试
 ## 开发
 
 ```bash
-# 自动化（需本机 Chrome + playwright-core）
 cd test
 node test-all-modes.mjs
 node test-ui-clicks.mjs
