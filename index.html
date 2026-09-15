@@ -328,7 +328,7 @@
     <div id="shell">
       <canvas id="game" width="1040" height="700"></canvas>
       <div class="brand">POISE // 破防之隙</div>
-      <a id="dev-credit" class="dev-credit" href="https://github.com/POPOult" target="_blank" rel="noopener noreferrer">Dev <strong>POPOult</strong> · GitHub</a>
+      <a id="dev-credit" class="dev-credit" href="https://github.com/IDKURLOVE" target="_blank" rel="noopener noreferrer">Dev <strong>IDKURLOVE</strong> · GitHub</a>
       <div id="currency-chip" style="position:absolute;right:18px;top:14px;z-index:3;display:none;padding:4px 10px;background:rgba(10,14,24,.85);border:1px solid #2d5a48;color:#5dffb0;font-size:12px;letter-spacing:.04em"></div>
       <div id="hud">
         <div class="row">
@@ -3075,8 +3075,9 @@ if (e.timer>=(G.C||CFG).gruntActive){
         <button type="button" id="btn-ach" class="action-btn ghost" style="flex:1;text-align:center">成就 ${achUnlockedCount()}/${ACHIEVEMENTS.length}</button>
       </div>
       <p style="margin-top:12px;font-size:11px;color:#5a6a80">
-        破防之隙 · Dev <strong style="color:#8b97b0">POPOult</strong> ·
-        <a href="https://github.com/POPOult" target="_blank" rel="noopener noreferrer" style="color:#5a8aaa">GitHub</a>
+        破防之隙 · Dev <strong style="color:#8b97b0">IDKURLOVE</strong> ·
+        <a href="https://github.com/IDKURLOVE" target="_blank" rel="noopener noreferrer" style="color:#5a8aaa">GitHub</a>
+        · MiM-X-Pro-Preview
       </p>
     `;
     overlay.classList.add("show");
@@ -4217,10 +4218,10 @@ if (e.timer>=(G.C||CFG).gruntActive){
   };
 
   // ========== 作者署名嵌入（多层，防剥离）==========
-  // 破防之隙 / POISE · Developer POPOult · https://github.com/POPOult
+  // 破防之隙 / POISE · Developer IDKURLOVE · https://github.com/IDKURLOVE
   // 禁止删除本段、画布水印与 DOM 徽标后用于二次牟利。
   const __LICENSE = (() => {
-    const s = [80,79,80,79,117,108,116]; // POPOult
+    const s = [73,68,75,85,82,76,79,86,69]; // IDKURLOVE
     const url = [104,116,116,112,115,58,47,47,103,105,116,104,117,98,46,99,111,109,47,80,79,80,79,117,108,116];
     return {
       author: String.fromCharCode(...s),
@@ -4278,7 +4279,7 @@ if (e.timer>=(G.C||CFG).gruntActive){
   ensureCreditDom();
 
   console.info(
-    `%c${__LICENSE.game}%c\nDeveloper: ${__LICENSE.author}\n${__LICENSE.url}\n保留署名；移除后商用属侵权。`,
+    `%c${__LICENSE.game}%c\nDeveloper: ${__LICENSE.author}\n${__LICENSE.url}\nSupported by MiM-X-Pro-Preview\n保留署名；移除后商用属侵权。`,
     "color:#5dffb0;font-weight:bold;font-size:14px",
     "color:#8b97b0"
   );
