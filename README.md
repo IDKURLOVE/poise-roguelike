@@ -3,7 +3,7 @@
 单文件 HTML5 Canvas 动作肉鸽。削韧破防、海克斯改写规则、多模式无尽推进。
 
 **Developer: [IDKURLOVE](https://github.com/IDKURLOVE)**  
-**Supported by: MiM-X-Pro-Preview**
+**Supported by: MiMo-X-Pro-Preview**
 
 ## 玩法
 
@@ -78,4 +78,4 @@ node test-ui-clicks.mjs
 
 ## 作者
 
-© 2026 IDKURLOVE · 保留署名 · Supported by MiM-X-Pro-Preview
+© 2026 IDKURLOVE · 保留署名 · Supported by MiMo-X-Pro-Preview
