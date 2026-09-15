@@ -1,5 +1,0 @@
-dir=E:\a Project\action-roguelike
-url=file:///E:/a%20Project/action-roguelike/index.html
-try C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe -> True
-cmd="C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --app=file:///E:/a%20Project/action-roguelike/index.html --window-size=1120,800 --no-first-run
-run ok
